@@ -1,0 +1,37 @@
+.image {
+   width: 100%;
+   height: 100vh;
+   object-fit: cover;
+   object-position: bottom center;
+}
+.form-container {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.form-container form {
+   padding: 2.5rem;
+   width: 38vw;
+   text-align: center;
+}
+.form-container h3 {
+   margin-bottom: 2rem;
+}
+.form-container input {
+   padding-left: 1rem;
+   border: 1px solid var(--second-title-color);
+   height: 50px;
+}
+.form-container button {
+   text-transform: uppercase;
+   margin: 1rem 0;
+   font-style: normal;
+}
+.form-container span {
+   text-decoration: underline;
+   color: #0d6efd;
+}
+.form-container span:hover {
+   cursor: pointer;
+}

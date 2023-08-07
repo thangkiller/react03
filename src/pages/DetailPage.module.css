@@ -1,0 +1,38 @@
+.detail {
+   margin-top: 3rem;
+}
+.image {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.image-small {
+   height: 25%;
+}
+.title {
+   font-size: 28px;
+   letter-spacing: -0.3px;
+}
+.price {
+   margin-top: 0.3rem;
+}
+.desc {
+   margin-top: 1rem;
+}
+/* long desc */
+
+.long-desc {
+   display: inline-block;
+   margin-top: 3rem;
+   padding: 1rem;
+   background: #232323;
+   color: #cdcdcd;
+   font-size: 14px;
+}
+.text {
+   margin-top: 1rem;
+   color: #6a6a6a;
+}
+.text::first-line {
+   text-transform: uppercase;
+}

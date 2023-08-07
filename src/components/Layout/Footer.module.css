@@ -1,0 +1,16 @@
+.footer {
+   margin-top: 4rem;
+   padding: 3rem;
+   background-color: var(--footer-color);
+}
+.title {
+   margin: 1rem 0;
+   font-size: 20px;
+   text-transform: uppercase;
+   color: #ffffffa6;
+}
+.item {
+   margin: 0.3rem 0;
+   color: #ffffff2d;
+   font-size: 14px;
+}

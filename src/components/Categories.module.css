@@ -1,0 +1,27 @@
+.category {
+   margin-top: 1.5rem;
+}
+.header {
+   text-align: center;
+}
+.header h5 {
+   color: var(--second-title-color);
+}
+.header h1 {
+   color: var(--title-color);
+}
+.collection {
+   margin-top: 1rem;
+}
+.collection > div {
+   margin-top: 1rem;
+}
+.collection img {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+   transition: 0.3s;
+}
+.collection img:hover {
+   opacity: 0.8;
+}

@@ -1,0 +1,51 @@
+:root {
+   --content-color: #faebd7;
+   --footer-color: #111;
+   --banner-background: #f4f5f9;
+   --button-background: #383838;
+   --second-title-color: #0000003b;
+   --title-color: #000000cf;
+   --sidebar-highlight: #0f100d;
+   --chat-background-cell: #48b0f7;
+}
+
+body {
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   font-style: italic;
+}
+
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+}
+ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+a {
+   text-decoration: none;
+   color: inherit;
+}
+button {
+   border: none;
+   background-color: var(--button-background);
+   color: #ffffffb6;
+   font-size: 14px;
+   padding: 8px 14px;
+   font-style: italic;
+}

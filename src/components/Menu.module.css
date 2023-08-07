@@ -1,0 +1,30 @@
+.sidebar {
+   background-color: #ffffff;
+}
+.sidebar h5,
+.sidebar p {
+   padding: 0.5rem 1rem;
+   padding-right: 2rem;
+}
+.header {
+   padding-left: 0.3rem;
+   padding-top: 1rem;
+   text-transform: uppercase;
+   color: var(--title-color);
+}
+.group {
+   margin-top: 1rem;
+}
+.title {
+   margin-top: 0.4rem;
+   text-transform: uppercase;
+   color: var(--title-color);
+}
+.header + .group > .title {
+   background-color: var(--sidebar-highlight);
+   color: #ffffffb0;
+}
+.sidebar p:hover {
+   color: var(--content-color);
+   cursor: pointer;
+}
