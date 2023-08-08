@@ -34,8 +34,8 @@ const routes = createBrowserRouter([
          { path: "resgister", element: <ResgisterPage /> },
       ],
    },
-   { path: "/login", element: <LoginPage /> },
-   { path: "/logout", loader: loaderLogout },
+   { path: "/react03/login", element: <LoginPage /> },
+   { path: "/react03/logout", loader: loaderLogout },
 ]);
 
 export default routes;
