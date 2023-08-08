@@ -12,7 +12,7 @@ import { loader as loaderLogout } from "../pages/Logout";
 
 const routes = createBrowserRouter([
    {
-      path: "/react03",
+      path: "",
       //Đoạn này nè, là layout chung cho toanmf bộ web
       element: <Layout />,
       loader: checkAuth,
@@ -34,8 +34,8 @@ const routes = createBrowserRouter([
          { path: "resgister", element: <ResgisterPage /> },
       ],
    },
-   { path: "/react03/login", element: <LoginPage /> },
-   { path: "/react03/logout", loader: loaderLogout },
+   { path: "login", element: <LoginPage /> },
+   { path: "logout", loader: loaderLogout },
 ]);
 
 export default routes;
