@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import HomePage from "../pages/Home";
 import ShopPage from "../pages/Shop";
 import CartPage from "../pages/CartPage";
@@ -10,7 +10,7 @@ import Layout from "../components/Layout/Layout";
 import checkAuth from "../constants/auth";
 import { loader as loaderLogout } from "../pages/Logout";
 
-const routes = createBrowserRouter([
+const routes = createHashRouter([
    {
       path: "",
       //Đoạn này nè, là layout chung cho toanmf bộ web
