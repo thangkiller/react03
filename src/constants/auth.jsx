@@ -4,7 +4,7 @@ import getCurrentUser from "./localStorage";
 export default async function auth() {
    const currentUser = getCurrentUser();
    if (!currentUser) {
-      return redirect("/login");
+      return redirect("/react03/login");
    }
    return currentUser;
 }
